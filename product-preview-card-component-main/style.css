@@ -14,14 +14,18 @@
 body{
     background-color: hsl(30, 38%, 92%);
 }
-
+.maintext{
+    padding: 1rem;
+    padding-right: 3rem;
+}
+.Container img {
+    max-width: inherit;
+    max-height: inherit;
+}
 .Container {
     background: hsl(0, 0%, 100%);
-    padding: 1rem;
     max-width: fit-content;
     max-height: fit-content;
-    padding-right: 3%;
-    padding-left: 1%;
     margin: auto;
     position: absolute;
     top: 50%;
@@ -29,6 +33,7 @@ body{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     border-radius: 1rem;
+    display: flex;
 }
 
 .title {
