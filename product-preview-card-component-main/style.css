@@ -6,25 +6,64 @@
     }
 
 @font-face {
-    font-family: Fraunces;
+    font-family: 'Fraunces';
     font-style: normal;
     font-weight: 500;
     src: url(https://fonts.gstatic.com/s/fraunces/v31/6NUh8FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0K7iN7hzFUPJH58nib1603gg7S2nfgRYIctxuTCf7Vp05GNyXk.woff) format('woff');
 }
-.background{
-    background-size: cover;
+body{
     background-color: hsl(30, 38%, 92%);
 }
 
-.background.title {
+.Container {
+    background: hsl(0, 0%, 100%);
+    padding: 1rem;
+    max-width: fit-content;
+    max-height: fit-content;
+    padding-right: 3%;
+    padding-left: 1%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 1rem;
+}
+
+.title {
+    font-family: Montserrat;
+    color: hsl(228, 12%, 48%);
+}
+.name {
+    font-family: Fraunces;
+    color: hsl(212, 21%, 14%);
+}
+.class {
     font-family: Montserrat;
 }
-.background.name {
-    font-family: Fraunces;
+.Price {
+    display:flex;
+    align-items:  center;
+    color: hsl(228, 12%, 48%);
 }
-.background.class {
+.primaryPrice h1 {
+    color: hsl(158, 36%, 37%);
+    font-family: Fraunces;
+    padding-right: 1rem;
+}
+.button {
+    background-color: hsl(158, 36%, 37%);
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
     font-family: Montserrat;
 }
-.background.primaryPrice{
-    font-family: Fraunces;
+.button span {
+    padding-left: 0.5rem;
+}
+.text {
+    font-family: Montserrat;
+    color: hsl(228, 12%, 48%);
 }
