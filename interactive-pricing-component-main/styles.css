@@ -8,12 +8,17 @@ body {
     background: hsl(230, 100%, 99%);
 }
 .heading {
-    padding-top: 5rem;
     width: fit-content;
     height: fit-content;
     margin: auto;
     display: grid;
     font-family: 'Manrope';
+    background-image: url(./images/pattern-circles.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 3rem 0;
+    margin-top: 2rem;
+    padding-bottom: 5rem;
 }
 #head1 {
     font-size: xx-large;
@@ -25,4 +30,45 @@ body {
     height: fit-content;
     margin: auto;
     color: hsl(225, 20%, 60%);
+}
+.main {
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    background: hsl(0, 0%, 100%);
+    font-family: 'Manrope';
+    padding: 2rem;
+    border-radius: 1rem;
+}
+#pageveiwsandprice{
+    display: flex;
+    padding-bottom: 1rem;
+}
+#pageviews {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: hsl(225, 20%, 60%);
+    align-self: center;
+}
+#dollarspermonth {
+    letter-spacing: 2px;
+    color: hsl(225, 20%, 60%);
+    margin-left: auto;
+    align-self: center;
+}
+#money {
+    font-size: xx-large;
+    letter-spacing: normal;
+    color: hsl(227, 35%, 25%);
+}
+#dollarsign {
+    font-size: xx-large;
+    letter-spacing: normal;   
+    color: hsl(227, 35%, 25%);
+}
+.slidercontainer {
+    width: 100%;
+}
+.slider {
+    width: 100%;
 }

@@ -12,21 +12,34 @@
 </head>
 <body>
   <div class="heading">
-  <span id = 'head1'>Simple, traffic-based pricing</span>
-  <span id = 'span1'> sign up for our 30-day trial. No credit card required. </span>
+    <span id = 'head1'>Simple, traffic-based pricing</span>
+    <span id = 'span1'> sign up for our 30-day trial. No credit card required. </span>
   </div>
-  Pageviews
-  $ /month
-
-  Monthly Billing
-  Yearly Billing 25% discount
-
-  Unlimited websites
-  100% data ownership
-  Email reports
-
-  Start my trial
-  
+  <div class = "main">
+    <div id = "pageveiwsandprice">
+      <span id ="pageviews"><script></script>Pageviews</span>
+      <span id = "dollarspermonth"><span id = "dollarsign">$</span><script id = "money"> </script> /month</span>
+    </div>
+    <div class="slidercontainer">
+      <input type="range" min="1" max="100" value="50" class="slider" id="myrange">
+    </div>
+    <div id = "switch">
+      <span id = "monthlybilling"> Monthly Billing </span>
+      </label>
+      <span id = "Yearlybilling"> Yearly Billing </span>
+      <span id = "discount"> 25% discount </span> 
+    </div>
+    <div id = "checklistandtrial">
+      <div id = "list">
+        Unlimited websites
+        100% data ownership
+        Email reports
+      </div>
+    </div>
+    <div id = "trial">
+      Start my trial
+    </div>
+  </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
