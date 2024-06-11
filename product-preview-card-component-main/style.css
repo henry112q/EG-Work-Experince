@@ -3,8 +3,7 @@
     font-style: normal;
     font-weight: 500;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXx-p7K4KLg.woff) format('woff');
-    }
-
+}
 @font-face {
     font-family: 'Fraunces';
     font-style: normal;
@@ -17,10 +16,13 @@ body{
 .maintext{
     padding: 1rem;
     padding-right: 3rem;
+    max-height: fit-content;
+    max-width: fit-content;
 }
 .Container img {
-    max-width: inherit;
-    max-height: inherit;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    max-height: 28rem;
 }
 .Container {
     background: hsl(0, 0%, 100%);
@@ -64,6 +66,11 @@ body{
     text-align: center;
     color: hsl(0, 0%, 100%);
     font-family: Montserrat;
+    cursor: pointer;   
+}
+.button:hover{
+    background-color: hsl(158, 69%, 20%);
+    
 }
 .button span {
     padding-left: 0.5rem;
