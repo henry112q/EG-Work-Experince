@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/manrope/v15/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk79FN_C-b_Tfc7AGrY.woff) format('woff');
+}
+body {
+    background: hsl(230, 100%, 99%);
+}
+.heading {
+    padding-top: 5rem;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    display: grid;
+    font-family: 'Manrope';
+}
+#head1 {
+    font-size: xx-large;
+    color: hsl(227, 35%, 25%);
+    padding-bottom: 1rem;
+}
+#span1 {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    color: hsl(225, 20%, 60%);
+}
