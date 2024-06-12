@@ -42,8 +42,9 @@ body {
     border-radius: 1rem;
 }
 #pageveiwsandprice{
-    display: flex;
+    display: inline-block;
     padding-bottom: 1rem;
+    width: 100%;
 }
 #pageviews {
     text-transform: uppercase;
@@ -54,8 +55,9 @@ body {
 #dollarspermonth {
     letter-spacing: 2px;
     color: hsl(225, 20%, 60%);
-    margin-left: auto;
+    padding-left: 10rem;
     align-self: center;
+    
 }
 #money {
     font-size: xx-large;
@@ -242,19 +244,24 @@ body{
     border-radius: 1rem;
 }
 #pageveiwsandprice{
-    display: flex;
+    display: grid;
     padding-bottom: 1rem;
+    margin: auto;
+    position: relative;
 }
 #pageviews {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: hsl(225, 20%, 60%);
-    align-self: center;
+    margin: auto;
 }
 #dollarspermonth {
     letter-spacing: 2px;
     color: hsl(225, 20%, 60%);
-    margin-left: auto;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    left: 32%;
     align-self: center;
 }
 #money {
@@ -269,6 +276,9 @@ body{
 }
 .slidercontainer {
     width: 100%;
+    padding-bottom: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 5;
 }
 .slider {
     -webkit-appearance: none;
@@ -294,6 +304,9 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 50%;
+}
+.slider::-webkit-slider-thumb::before {
+    background-color: hsl(174, 86%, 45%);
 }
 #switch {
     display: flex;
