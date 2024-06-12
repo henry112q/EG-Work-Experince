@@ -18,15 +18,15 @@
   </div>
   <div class = "main">
     <div id = "pageveiwsandprice">
-      <span id ="pageviews"><span id="pageviewsamount"></span>K Pageviews</span>
-      <span id = "dollarspermonth"><span id = "dollarsign">$</span>/month</span>
+      <span id ="pageviews"><span id="pageviewsamount">100</span>K Pageviews</span>
+      <span id = "dollarspermonth"><span id="money">16</span> <span id = "dollarsign">$</span>/<span id="month">month</span></span>
     </div>
     <div class="slidercontainer">
-      <input type="range" min="1" max="200" value="100" class="slider" id="myrange">
+      <input type="range" min="1" max="200" value="100" class="slider" id="myrange" onchange="updateValue(this.value)">
     </div>
     <div id = "switch">
       <span id = "monthlybilling"> Monthly Billing </span>
-      <input type="checkbox" id="check" class="toggle">
+      <input type="checkbox" id="check" class="toggle" onclick="Checkbox(this.value)">
       <label for="check"></label>
       <span id = "Yearlybilling"> Yearly Billing </span>
       <span id = "discount"> 25% discount </span> 
