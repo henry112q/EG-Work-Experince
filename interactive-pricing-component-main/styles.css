@@ -32,7 +32,7 @@ body {
     color: hsl(225, 20%, 60%);
 }
 .main {
-    margin: auto;
+    margin: 1rem;
     width: fit-content;
     height: fit-content;
     background: hsl(0, 0%, 100%);
