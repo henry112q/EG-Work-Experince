@@ -42,22 +42,23 @@ body {
     border-radius: 1rem;
 }
 #pageveiwsandprice{
-    display: inline-block;
+    display: inline-grid;
     padding-bottom: 1rem;
     width: 100%;
+    grid-template-columns: 50% 50%;
 }
 #pageviews {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: hsl(225, 20%, 60%);
     align-self: center;
+    max-width: 11rem;
 }
 #dollarspermonth {
     letter-spacing: 2px;
     color: hsl(225, 20%, 60%);
-    padding-left: 10rem;
+    margin-left: auto;
     align-self: center;
-    
 }
 #money {
     font-size: xx-large;
