@@ -6,6 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="styles.css">
+  <script src="./index.js"></script>
   <title>Frontend Mentor | Interactive pricing component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -17,30 +18,29 @@
   </div>
   <div class = "main">
     <div id = "pageveiwsandprice">
-      <span id ="pageviews"><script></script>Pageviews</span>
-      <span id = "dollarspermonth"><span id = "dollarsign">$</span><script id = "money"> </script> /month</span>
+      <span id ="pageviews"><span id="pageviewsamount"></span>K Pageviews</span>
+      <span id = "dollarspermonth"><span id = "dollarsign">$</span>/month</span>
     </div>
     <div class="slidercontainer">
-      <input type="range" min="1" max="100" value="50" class="slider" id="myrange">
+      <input type="range" min="1" max="200" value="100" class="slider" id="myrange">
     </div>
     <div id = "switch">
       <span id = "monthlybilling"> Monthly Billing </span>
-      <input type="checkbox" id="toggleswitch" class="toggle">
-      <label for="toggleswitch" class="label">
-        <div class="ball"></div>
-      </label>
+      <input type="checkbox" id="check" class="toggle">
+      <label for="check"></label>
       <span id = "Yearlybilling"> Yearly Billing </span>
       <span id = "discount"> 25% discount </span> 
     </div>
     <div id = "checklistandtrial">
       <div id = "list">
-        Unlimited websites
-        100% data ownership
-        Email reports
+        <div id="listitem"><img src="./images/icon-check.svg" alt="tickbox"><span>Unlimited websites</span></div>
+        <div id="listitem"><img src="./images/icon-check.svg" alt="tickbox"><span>100% data ownership</span></div>
+        <div id="listitem"><img src="./images/icon-check.svg" alt="tickbox"><span>Email reports</span></div>
       </div>
-    </div>
-    <div id = "trial">
-      Start my trial
+    
+      <div id = "trial">
+         <span>start my trial</span> 
+      </div>
     </div>
   </div>
   <div class="attribution">
