@@ -72,3 +72,16 @@ body {
 .slider {
     width: 100%;
 }
+.toggle {
+    visibility: hidden;
+}
+
+.label {
+    background-color: black;
+    width: 80px;
+    height: 40px;
+    border: 1rem;
+    border-color: black;
+    border-radius: 50px;
+    cursor: pointer;
+}
