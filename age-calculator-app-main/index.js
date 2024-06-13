@@ -60,3 +60,20 @@ function YearValidation(val) {
     }
     MonthValidation(month.value)
 }
+function Buttonfunction() {
+    var day = document.getElementById("Day").value
+    var month = document.getElementById("Month").value
+    var year = document.getElementById("Year").value
+
+    var yearsdiffrence = new Date().getFullYear() - year
+    var monthdiffrence = new Date().getMonth() - month +1
+    var daysdiffrence = new Date().getDay() - day + 9
+
+    var daydiaplay = document.getElementById("DaysOutput")
+    var monthdiaplay = document.getElementById("MonthsOutput")
+    var yeardiaplay = document.getElementById("YearsOutput")
+
+    daydiaplay.innerHTML = daysdiffrence
+    monthdiaplay.innerHTML = monthdiffrence
+    yeardiaplay.innerHTML = yearsdiffrence
+}

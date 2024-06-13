@@ -13,20 +13,34 @@
   <script src="./index.js"></script>
 </head>
 <body>
-
-  Day
-  <input type="text" id="Day" value="" placeholder="DD" onchange="DayValidation(this.value)">
-
-  Month
-  <input type="text" id="Month" placeholder="MM" value="" onchange="MonthValidation(this.value)">
-
-  Year
-  <input type="text" id="Year" placeholder="YYYY" value="" onchange="YearValidation(this.value)">
-
-  <span id="YearsOutput"> -- </span> years
-  <span id="MonthsOutput"> -- </span> months
-  <span id="DaysOutput"> -- </span> days
-  
+  <div id="input">
+    <div id="item">
+      <span>Day</span>
+      <input type="text" id="Day" value="" placeholder="DD" onchange="DayValidation(this.value)">
+    </div>
+    <div id="item">
+      <span>Month</span>
+      <input type="text" id="Month" placeholder="MM" value="" onchange="MonthValidation(this.value)">
+    </div>
+    <div id="item">
+      <span>Year</span>
+      <input type="text" id="Year" placeholder="YYYY" value="" onchange="YearValidation(this.value)">
+    </div>
+  </div>
+  <div id="split">
+    <div id="button" onclick="Buttonfunction()"></div>
+  </div>
+  <div id="output">
+    <div id="daystotaloutput">
+      <span id="YearsOutput"> -- </span> <span id="outputsecondword"> years </span>
+    </div>
+    <div id="monthstotaloutput">
+      <span id="MonthsOutput"> -- </span> <span id="outputsecondword"> months </span>
+    </div>
+    <div id="yearstotaloutput">
+      <span id="DaysOutput"> -- </span> <span id="outputsecondword"> days</span>
+    </div>
+  </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
