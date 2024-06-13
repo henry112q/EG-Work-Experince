@@ -71,7 +71,9 @@ body {
     color: hsl(227, 35%, 25%);
 }
 .slidercontainer {
+    padding-top: 2rem;
     width: 100%;
+    grid-column: span 2;
 }
 .slider {
     -webkit-appearance: none;
@@ -305,9 +307,6 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 50%;
-}
-.slider::-webkit-slider-thumb::before {
-    background-color: hsl(174, 86%, 45%);
 }
 #switch {
     display: flex;

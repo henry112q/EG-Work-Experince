@@ -28,3 +28,12 @@ function Checkbox(val) {
     }
     updateValue(slider.getAttribute("value"))
 }
+
+const sliderEl = document.querySelector("#range")
+
+function progressScript() {
+  const sliderValue = sliderEl.value;
+  sliderEl.style.background = `linear-gradient(to right, #f50 ${sliderValue}%, #ccc ${sliderValue}%)`;
+}
+
+progressScript()

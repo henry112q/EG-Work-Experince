@@ -21,7 +21,7 @@
       <span id ="pageviews"><span id="pageviewsamount">100</span>K Pageviews</span>
       <span id = "dollarspermonth"><span id="money">16</span> <span id = "dollarsign">$</span>/<span id="month">month</span></span>
       <div class="slidercontainer">
-        <input type="range" min="1" max="200" value="100" class="slider" id="myrange" onchange="updateValue(this.value)">
+        <input type="range" min="0" max="200" value="100" class="slider" id="myrange" onpointermove="updateValue(this.value)" oninput="progressScript()">
       </div>
     </div>
     <div id = "switch">
