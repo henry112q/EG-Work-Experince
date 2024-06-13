@@ -15,17 +15,17 @@
 <body>
 
   Day
-  DD
+  <input type="text" id="Day" value="" placeholder="DD" onchange="DayValidation(this.value)">
 
   Month
-  MM
+  <input type="text" id="Month" placeholder="MM" value="" onchange="MonthValidation(this.value)">
 
   Year
-  YYYY
+  <input type="text" id="Year" placeholder="YYYY" value="" onchange="YearValidation(this.value)">
 
-  -- years
-  -- months
-  -- days
+  <span id="YearsOutput"> -- </span> years
+  <span id="MonthsOutput"> -- </span> months
+  <span id="DaysOutput"> -- </span> days
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

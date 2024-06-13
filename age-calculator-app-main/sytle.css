@@ -7,3 +7,12 @@ body {
     bottom: 0  ;
     left: 40%;
 }
+#Day {
+    width: 4rem;
+}
+#Month {
+    width: 4rem;
+}
+#Year {
+    width: 4rem;
+}
