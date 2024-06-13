@@ -76,4 +76,19 @@ function Buttonfunction() {
     daydiaplay.innerHTML = daysdiffrence
     monthdiaplay.innerHTML = monthdiffrence
     yeardiaplay.innerHTML = yearsdiffrence
-}
+};
+
+function betterbutton() {
+    var D = document.getElementById("Day").value
+    var M = document.getElementById("Month").value
+    var Y = document.getElementById("Year").value
+    var DMY = `${D}-${M}-${Y}`
+
+    var days = new Date(DMY).getDay() - new Date().getDay()
+    var months = new Date(DMY).getMonth() - new Date().getMonth()
+    var years = new Date(DMY).getFullYear() - new Date().getFullYear()
+
+    var dayD = document.getElementById("DaysOutput")
+    var monthD = document.getElementById("MonthsOutput")
+    var yearD = document.getElementById("YearsOutput")
+};
