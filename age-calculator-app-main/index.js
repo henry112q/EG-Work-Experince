@@ -60,7 +60,7 @@ function YearValidation(val) {
     }
     MonthValidation(month.value)
 }
-function Buttonfunction3() {
+function Buttonfunction() {
     var day = document.getElementById("Day").value
     var month = document.getElementById("Month").value
     var year = document.getElementById("Year").value
@@ -78,7 +78,7 @@ function Buttonfunction3() {
     yeardiaplay.innerHTML = yearsdiffrence
 };
 
-function Buttonfunction() {
+function Buttonfunction2() {
     var D = document.getElementById("Day").value
     var M = document.getElementById("Month").value
     var Y = document.getElementById("Year").value
